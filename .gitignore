@@ -1,0 +1,19 @@
+# Dependencies
+frontend/node_modules/
+backend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Database (user data — persisted via Docker volume in production)
+backend/data/*
+!backend/data/.gitkeep
+
+# Environment files
+.env
+.env.*
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
