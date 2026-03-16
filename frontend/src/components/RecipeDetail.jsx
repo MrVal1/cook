@@ -232,9 +232,9 @@ export default function RecipeDetail({ recipe, onBack, onEdit, onDelete, onToggl
               const step = normalizeStep(rawStep)
               return (
                 <li key={i} className="flex gap-3">
-                  {/* Numéro + icône optionnelle */}
-                  <div className="flex flex-col items-center gap-1 shrink-0">
-                    <span className="bg-amber-500 text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold">
+                  {/* Numéro + icône : côte à côte si texte court, empilés si multi-lignes */}
+                  <div className={`flex ${step.text.includes('\n') || step.text.length > 70 ? 'flex-col' : 'flex-row'} items-center gap-1.5 shrink-0 pt-0.5`}>
+                    <span className="bg-amber-500 text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold shrink-0">
                       {i + 1}
                     </span>
                     {step.icon && (

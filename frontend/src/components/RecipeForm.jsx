@@ -1,8 +1,40 @@
-import { useState } from 'react'
+import { useState, useRef, useLayoutEffect, useEffect, forwardRef } from 'react'
 import { X, Plus, Trash2, ArrowLeft, Link, Loader2, AlertCircle, ChefHat } from 'lucide-react'
 import { normalizeIngObj } from '../utils/scaleIngredients'
 import { importRecipeFromUrl } from '../utils/recipeParser'
 import IconPicker from './IconPicker'
+import Markdown from './Markdown'
+
+/** Textarea auto-redimensionnable — accepte un ref externe via forwardRef */
+const AutoResizeTextarea = forwardRef(function AutoResizeTextarea(
+  { value, onChange, className = '', placeholder, ...props },
+  externalRef
+) {
+  const localRef = useRef(null)
+  const setRef = el => {
+    localRef.current = el
+    if (typeof externalRef === 'function') externalRef(el)
+    else if (externalRef) externalRef.current = el
+  }
+  useLayoutEffect(() => {
+    const el = localRef.current
+    if (!el) return
+    el.style.height = 'auto'
+    el.style.height = el.scrollHeight + 'px'
+  }, [value])
+  return (
+    <textarea
+      ref={setRef}
+      value={value}
+      onChange={onChange}
+      className={className}
+      placeholder={placeholder}
+      style={{ overflow: 'hidden', resize: 'none' }}
+      rows={1}
+      {...props}
+    />
+  )
+})
 
 /** Normalise une étape : string → {text, icon} ou {text,icon} tel quel */
 const normalizeStep = s =>
@@ -45,6 +77,65 @@ function normalize(recipe) {
     tags: recipe.tags || [],
     tips: recipe.tips || '',
   }
+}
+
+/**
+ * Ligne d'étape : édition inline markdown.
+ * - Vide ou en cours de saisie → textarea auto-resize
+ * - Rempli + blur → rendu markdown (clic pour reprendre l'édition)
+ * - Icône à côté du numéro si texte court, en dessous si multi-lignes
+ */
+function StepRow({ step, index, onTextChange, onIconChange, onRemove }) {
+  const [editing, setEditing] = useState(!step.text.trim())
+  const textareaRef = useRef(null)
+
+  const isMultiLine = step.text.includes('\n') || step.text.length > 70
+
+  // Focus le textarea quand on passe en mode édition
+  useEffect(() => {
+    if (editing && textareaRef.current) {
+      textareaRef.current.focus()
+      const len = textareaRef.current.value.length
+      textareaRef.current.setSelectionRange(len, len)
+    }
+  }, [editing])
+
+  return (
+    <div className="flex gap-2 items-start">
+      {/* Numéro + icône : côte à côte si ligne unique, empilés si multi-lignes */}
+      <div className={`flex ${isMultiLine ? 'flex-col' : 'flex-row'} items-center gap-1 shrink-0 mt-2`}>
+        <span className="bg-amber-100 text-amber-700 rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold shrink-0">
+          {index + 1}
+        </span>
+        <IconPicker value={step.icon} onChange={onIconChange} />
+      </div>
+
+      {/* Zone de texte : édition ↔ rendu markdown */}
+      <div className="flex-1 min-w-0">
+        {editing || !step.text.trim() ? (
+          <AutoResizeTextarea
+            ref={textareaRef}
+            className="input-field"
+            value={step.text}
+            onChange={e => onTextChange(e.target.value)}
+            onBlur={() => { if (step.text.trim()) setEditing(false) }}
+            placeholder={`Étape ${index + 1}… (**gras**, *italique*, - liste)`}
+          />
+        ) : (
+          <div
+            onClick={() => setEditing(true)}
+            className="px-3 py-2 rounded-lg border border-gray-200 hover:border-amber-300 hover:bg-amber-50 cursor-text text-sm text-gray-700 transition-colors"
+          >
+            <Markdown>{step.text}</Markdown>
+          </div>
+        )}
+      </div>
+
+      <button type="button" onClick={onRemove} className="p-1 text-gray-400 hover:text-red-500 transition-colors shrink-0 mt-2" tabIndex={-1}>
+        <Trash2 size={16} />
+      </button>
+    </div>
+  )
 }
 
 export default function RecipeForm({ initial, onSave, onCancel }) {
@@ -240,9 +331,8 @@ export default function RecipeForm({ initial, onSave, onCancel }) {
 
             <div>
               <label className="block text-sm font-medium mb-1">Description</label>
-              <textarea
-                className="input-field resize-none"
-                rows={3}
+              <AutoResizeTextarea
+                className="input-field"
                 value={form.description}
                 onChange={e => set('description', e.target.value)}
                 placeholder="Décrivez la recette en quelques mots…"
@@ -343,28 +433,14 @@ export default function RecipeForm({ initial, onSave, onCancel }) {
             <h2 className="font-semibold text-gray-700">Étapes de préparation *</h2>
             {errors.steps && <p className="text-red-500 text-xs">{errors.steps}</p>}
             {form.steps.map((step, i) => (
-              <div key={i} className="flex gap-2 items-start">
-                {/* Numéro + icône picker */}
-                <div className="flex flex-col items-center gap-1 shrink-0 mt-2">
-                  <span className="bg-amber-100 text-amber-700 rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold">
-                    {i + 1}
-                  </span>
-                  <IconPicker
-                    value={step.icon}
-                    onChange={val => setStep(i, 'icon', val)}
-                  />
-                </div>
-                <textarea
-                  className="input-field resize-none"
-                  rows={2}
-                  value={step.text}
-                  onChange={e => setStep(i, 'text', e.target.value)}
-                  placeholder={`Étape ${i + 1}… (supporte **gras**, *italique*, - listes)`}
-                />
-                <button type="button" onClick={() => removeStep(i)} className="p-1 text-gray-400 hover:text-red-500 transition-colors shrink-0 mt-2" tabIndex={-1}>
-                  <Trash2 size={16} />
-                </button>
-              </div>
+              <StepRow
+                key={i}
+                step={step}
+                index={i}
+                onTextChange={val => setStep(i, 'text', val)}
+                onIconChange={val => setStep(i, 'icon', val)}
+                onRemove={() => removeStep(i)}
+              />
             ))}
             <button type="button" onClick={addStep} className="flex items-center gap-1 text-amber-600 hover:text-amber-700 text-sm font-medium">
               <Plus size={16} /> Ajouter une étape
@@ -374,9 +450,8 @@ export default function RecipeForm({ initial, onSave, onCancel }) {
           {/* Conseils */}
           <section className="bg-white rounded-2xl p-5 shadow-sm space-y-3">
             <h2 className="font-semibold text-gray-700">💡 Conseils</h2>
-            <textarea
-              className="input-field resize-none"
-              rows={3}
+            <AutoResizeTextarea
+              className="input-field"
               value={form.tips}
               onChange={e => set('tips', e.target.value)}
               placeholder="Astuces, variantes, conseils de présentation…"
