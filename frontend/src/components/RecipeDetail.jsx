@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import { ArrowLeft, Clock, Users, Heart, Edit2, Trash2, ExternalLink, ChefHat, Globe, Minus, Plus, RotateCcw } from 'lucide-react'
 import { scaleIngredient, parseServings, formatNumber } from '../utils/scaleIngredients'
+import { StepIcon } from '../utils/stepIcons'
+import Markdown from './Markdown'
+
+const normalizeStep = s =>
+  typeof s === 'string' ? { text: s, icon: '' } : { text: s?.text || '', icon: s?.icon || '' }
 
 export default function RecipeDetail({ recipe, onBack, onEdit, onDelete, onToggleFavorite }) {
   const totalTime = recipe.totalTime || recipe.cookTime || recipe.prepTime
@@ -74,7 +79,9 @@ export default function RecipeDetail({ recipe, onBack, onEdit, onDelete, onToggl
         </div>
 
         {recipe.description && (
-          <p className="text-gray-600 text-sm leading-relaxed mb-4">{recipe.description}</p>
+          <div className="text-gray-600 text-sm mb-4">
+            <Markdown>{recipe.description}</Markdown>
+          </div>
         )}
 
         {/* Stats row */}
@@ -221,14 +228,27 @@ export default function RecipeDetail({ recipe, onBack, onEdit, onDelete, onToggl
         <div className="bg-white rounded-2xl p-5 shadow-sm mb-4">
           <h2 className="font-bold text-gray-800 mb-4">Préparation</h2>
           <ol className="space-y-4">
-            {recipe.steps.map((step, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="bg-amber-500 text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold shrink-0">
-                  {i + 1}
-                </span>
-                <p className="text-gray-700 text-sm leading-relaxed pt-0.5">{step}</p>
-              </li>
-            ))}
+            {recipe.steps.map((rawStep, i) => {
+              const step = normalizeStep(rawStep)
+              return (
+                <li key={i} className="flex gap-3">
+                  {/* Numéro + icône optionnelle */}
+                  <div className="flex flex-col items-center gap-1 shrink-0">
+                    <span className="bg-amber-500 text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold">
+                      {i + 1}
+                    </span>
+                    {step.icon && (
+                      <span className="text-amber-400" title={step.icon}>
+                        <StepIcon iconId={step.icon} size={16} />
+                      </span>
+                    )}
+                  </div>
+                  <div className="text-gray-700 text-sm pt-0.5 flex-1">
+                    <Markdown>{step.text}</Markdown>
+                  </div>
+                </li>
+              )
+            })}
           </ol>
         </div>
       )}
@@ -237,7 +257,9 @@ export default function RecipeDetail({ recipe, onBack, onEdit, onDelete, onToggl
       {recipe.tips && (
         <div className="bg-white rounded-2xl p-5 shadow-sm mb-4">
           <h2 className="font-bold text-gray-800 mb-3">💡 Conseils</h2>
-          <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">{recipe.tips}</p>
+          <div className="text-gray-700 text-sm">
+            <Markdown>{recipe.tips}</Markdown>
+          </div>
         </div>
       )}
 

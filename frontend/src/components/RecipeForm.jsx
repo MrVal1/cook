@@ -2,6 +2,11 @@ import { useState } from 'react'
 import { X, Plus, Trash2, ArrowLeft, Link, Loader2, AlertCircle, ChefHat } from 'lucide-react'
 import { normalizeIngObj } from '../utils/scaleIngredients'
 import { importRecipeFromUrl } from '../utils/recipeParser'
+import IconPicker from './IconPicker'
+
+/** Normalise une étape : string → {text, icon} ou {text,icon} tel quel */
+const normalizeStep = s =>
+  typeof s === 'string' ? { text: s, icon: '' } : { text: s?.text || '', icon: s?.icon || '' }
 
 const CATEGORIES = ['Entrée', 'Plat principal', 'Dessert', 'Apéritif', 'Soupe', 'Salade', 'Petit-déjeuner', 'Autre']
 
@@ -23,7 +28,7 @@ const EMPTY = {
   category: '',
   cuisine: '',
   ingredients: [{ qty: '', unit: '', name: '' }],
-  steps: [''],
+  steps: [{ text: '', icon: '' }],
   tips: '',
   tags: [],
   sourceUrl: '',
@@ -36,7 +41,7 @@ function normalize(recipe) {
     ingredients: recipe.ingredients?.length
       ? recipe.ingredients.map(normalizeIngObj)
       : [{ qty: '', unit: '', name: '' }],
-    steps: recipe.steps?.length ? recipe.steps : [''],
+    steps: recipe.steps?.length ? recipe.steps.map(normalizeStep) : [{ text: '', icon: '' }],
     tags: recipe.tags || [],
     tips: recipe.tips || '',
   }
@@ -73,12 +78,12 @@ export default function RecipeForm({ initial, onSave, onCancel }) {
   }
 
   // Steps
-  function setStep(i, val) {
+  function setStep(i, field, val) {
     const updated = [...form.steps]
-    updated[i] = val
+    updated[i] = { ...updated[i], [field]: val }
     set('steps', updated)
   }
-  function addStep() { set('steps', [...form.steps, '']) }
+  function addStep() { set('steps', [...form.steps, { text: '', icon: '' }]) }
   function removeStep(i) {
     if (form.steps.length === 1) return
     set('steps', form.steps.filter((_, idx) => idx !== i))
@@ -114,7 +119,7 @@ export default function RecipeForm({ initial, onSave, onCancel }) {
     const e = {}
     if (!form.title.trim()) e.title = 'Le titre est requis'
     if (form.ingredients.every(i => !i.name?.trim() && !i.qty?.trim())) e.ingredients = 'Ajoutez au moins un ingrédient'
-    if (form.steps.every(s => !s.trim())) e.steps = 'Ajoutez au moins une étape'
+    if (form.steps.every(s => !s.text?.trim())) e.steps = 'Ajoutez au moins une étape'
     return e
   }
 
@@ -125,7 +130,7 @@ export default function RecipeForm({ initial, onSave, onCancel }) {
     onSave({
       ...form,
       ingredients: form.ingredients.filter(i => i.name?.trim() || i.qty?.trim()),
-      steps: form.steps.filter(s => s.trim()),
+      steps: form.steps.filter(s => s.text?.trim()),
     })
   }
 
@@ -339,13 +344,22 @@ export default function RecipeForm({ initial, onSave, onCancel }) {
             {errors.steps && <p className="text-red-500 text-xs">{errors.steps}</p>}
             {form.steps.map((step, i) => (
               <div key={i} className="flex gap-2 items-start">
-                <span className="bg-amber-100 text-amber-700 rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold shrink-0 mt-2">{i + 1}</span>
+                {/* Numéro + icône picker */}
+                <div className="flex flex-col items-center gap-1 shrink-0 mt-2">
+                  <span className="bg-amber-100 text-amber-700 rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold">
+                    {i + 1}
+                  </span>
+                  <IconPicker
+                    value={step.icon}
+                    onChange={val => setStep(i, 'icon', val)}
+                  />
+                </div>
                 <textarea
                   className="input-field resize-none"
                   rows={2}
-                  value={step}
-                  onChange={e => setStep(i, e.target.value)}
-                  placeholder={`Étape ${i + 1}…`}
+                  value={step.text}
+                  onChange={e => setStep(i, 'text', e.target.value)}
+                  placeholder={`Étape ${i + 1}… (supporte **gras**, *italique*, - listes)`}
                 />
                 <button type="button" onClick={() => removeStep(i)} className="p-1 text-gray-400 hover:text-red-500 transition-colors shrink-0 mt-2" tabIndex={-1}>
                   <Trash2 size={16} />
