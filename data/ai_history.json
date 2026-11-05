@@ -1,0 +1,835 @@
+[
+  {
+    "id": "ai-gen-1793637285469-xldh",
+    "prompt": "soupe ultra douce avec carotte, patate et autre... (pour 6 personnes)",
+    "createdAt": "2026-11-02T16:34:45.469Z",
+    "recipe": {
+      "title": "Velouté câlin de carottes et patates douces au lait de coco",
+      "description": "Une soupe d'une douceur infinie, où la carotte et la patate douce se marient avec une pointe de vanille et de coco pour enrober le cœur de douceur.",
+      "category": "Entrée",
+      "prepTime": 15,
+      "cookTime": 30,
+      "totalTime": 45,
+      "servings": 6,
+      "difficulty": "Facile",
+      "ingredients": [
+        {
+          "id": "ing-1",
+          "raw": "800g de carottes fraîches",
+          "quantity": 800,
+          "unit": "g",
+          "name": "carottes fraîches"
+        },
+        {
+          "id": "ing-2",
+          "raw": "600g de patates douces",
+          "quantity": 600,
+          "unit": "g",
+          "name": "patates douces"
+        },
+        {
+          "id": "ing-3",
+          "raw": "1 oignon jaune",
+          "quantity": 1,
+          "name": "oignon jaune"
+        },
+        {
+          "id": "ing-4",
+          "raw": "2 gousses d'ail",
+          "quantity": 2,
+          "unit": "gousses",
+          "name": "ail"
+        },
+        {
+          "id": "ing-5",
+          "raw": "400ml de lait de coco",
+          "quantity": 400,
+          "unit": "ml",
+          "name": "lait de coco"
+        },
+        {
+          "id": "ing-6",
+          "raw": "800ml de bouillon de légumes",
+          "quantity": 800,
+          "unit": "ml",
+          "name": "bouillon de légumes"
+        },
+        {
+          "id": "ing-7",
+          "raw": "30g de beurre doux",
+          "quantity": 30,
+          "unit": "g",
+          "name": "beurre doux"
+        },
+        {
+          "id": "ing-8",
+          "raw": "1 cuillère à café de sel fin",
+          "quantity": 1,
+          "unit": "c. à café",
+          "name": "sel fin"
+        },
+        {
+          "id": "ing-9",
+          "raw": "4 pincées de poivre blanc moulu",
+          "quantity": 4,
+          "unit": "pincée",
+          "name": "poivre blanc moulu"
+        },
+        {
+          "id": "ing-10",
+          "raw": "1 pincée de noix de muscade râpée",
+          "quantity": 1,
+          "unit": "pincée",
+          "name": "noix de muscade râpée"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "step-1",
+          "stepNumber": 1,
+          "text": "Épluchez les carottes, les patates douces, l'oignon et l'ail. Taillez tous les légumes en cubes réguliers pour assurer une cuisson homogène.",
+          "durationMinutes": 10
+        },
+        {
+          "id": "step-2",
+          "stepNumber": 2,
+          "text": "Dans une grande casserole, faites fondre le beurre à feu moyen. Ajoutez l'oignon émincé et l'ail écrasé, puis faites-les suer pendant 5 minutes sans coloration.",
+          "durationMinutes": 5
+        },
+        {
+          "id": "step-3",
+          "stepNumber": 3,
+          "text": "Ajoutez les cubes de carottes et de patates douces dans la casserole. Remuez bien pour les enrober de beurre.",
+          "durationMinutes": 2
+        },
+        {
+          "id": "step-4",
+          "stepNumber": 4,
+          "text": "Versez le bouillon de légumes chaud et le lait de coco. Portez à frémissement, puis couvrez et laissez mijoter à feu doux pendant 25 minutes jusqu'à ce que les légumes soient parfaitement fondants.",
+          "durationMinutes": 25
+        },
+        {
+          "id": "step-5",
+          "stepNumber": 5,
+          "text": "À l'aide d'un mixeur plongeant, réduisez le tout en un velouté extrêmement fin et onctueux. Ajustez l'assaisonnement avec le sel, le poivre blanc et la muscade.",
+          "durationMinutes": 3
+        },
+        {
+          "id": "step-6",
+          "stepNumber": 6,
+          "text": "Servez bien chaud dans de jolie bols, avec éventuellement un petit filet de lait de coco sur le dessus pour le dressage."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=1200&q=80",
+      "tags": [
+        "Soupe",
+        "Végétarien",
+        "Réconfortant",
+        "Hiver"
+      ],
+      "notes": "L'astuce du chef : pour encore plus de gourmandise et de texture, ajoutez une cuillère à soupe de purée d'amandes blanches au moment de mixer le velouté."
+    },
+    "savedToRecipes": true,
+    "savedRecipeId": "recipe-1793637308306-un616"
+  },
+  {
+    "id": "ai-gen-1793636254932-1jdu",
+    "prompt": "crumble au pomme (pour 4 personnes)",
+    "createdAt": "2026-11-02T16:17:34.932Z",
+    "recipe": {
+      "title": "Crumble aux pommes fondant et croustillant",
+      "description": "Un grand classique réconfortant, alliant la douceur de pommes fondantes délicatement parfumées à la cannelle et un crumble au beurre bien croustillant.",
+      "category": "Dessert",
+      "prepTime": 20,
+      "cookTime": 30,
+      "totalTime": 50,
+      "servings": 4,
+      "difficulty": "Facile",
+      "ingredients": [
+        {
+          "id": "ing-1",
+          "raw": "4 pièces de pommes (variété Golden ou Reinette)",
+          "quantity": 4,
+          "unit": "pièces",
+          "name": "pommes (variété Golden ou Reinette)"
+        },
+        {
+          "id": "ing-2",
+          "raw": "20 g de beurre doux (pour la poêlée)",
+          "quantity": 20,
+          "unit": "g",
+          "name": "beurre doux (pour la poêlée)"
+        },
+        {
+          "id": "ing-3",
+          "raw": "30 g de sucre roux",
+          "quantity": 30,
+          "unit": "g",
+          "name": "sucre roux"
+        },
+        {
+          "id": "ing-4",
+          "raw": "1 pincée de cannelle en poudre",
+          "quantity": 1,
+          "unit": "pincée",
+          "name": "cannelle en poudre"
+        },
+        {
+          "id": "ing-5",
+          "raw": "120 g de farine de blé T55",
+          "quantity": 120,
+          "unit": "g",
+          "name": "farine de blé T55"
+        },
+        {
+          "id": "ing-6",
+          "raw": "50 g de poudre d'amandes",
+          "quantity": 50,
+          "unit": "g",
+          "name": "poudre d'amandes"
+        },
+        {
+          "id": "ing-7",
+          "raw": "80 g de sucre en poudre",
+          "quantity": 80,
+          "unit": "g",
+          "name": "sucre en poudre"
+        },
+        {
+          "id": "ing-8",
+          "raw": "100 g de beurre demi-sel bien froid",
+          "quantity": 100,
+          "unit": "g",
+          "name": "beurre demi-sel bien froid"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "step-1",
+          "stepNumber": 1,
+          "text": "Préchauffez votre four à 180°C en chaleur tournante."
+        },
+        {
+          "id": "step-2",
+          "stepNumber": 2,
+          "text": "Épluchez les pommes, retirez le cœur et coupez-les en dés réguliers d'environ 2 cm."
+        },
+        {
+          "id": "step-3",
+          "stepNumber": 3,
+          "text": "Dans une poêle, faites fondre les 20g de beurre doux, ajoutez les dés de pommes, le sucre roux et la cannelle. Laissez compoter à feu moyen pendant 10 minutes en remuant délicatement.",
+          "durationMinutes": 10
+        },
+        {
+          "id": "step-4",
+          "stepNumber": 4,
+          "text": "Pendant ce temps, préparez la pâte à crumble : dans un saladier, mélangez du bout des doigts la farine, la poudre d'amandes, le sucre en poudre et le beurre demi-sel coupé en petits dés, jusqu'à obtenir une texture de sable grossier."
+        },
+        {
+          "id": "step-5",
+          "stepNumber": 5,
+          "text": "Répartissez les pommes poêlées au fond d'un plat à gratin ou dans 4 petits plats individuels."
+        },
+        {
+          "id": "step-6",
+          "stepNumber": 6,
+          "text": "Émiettez la pâte à crumble généreusement par-dessus les pommes de manière à bien les recouvrir, sans trop tasser pour garder du croustillant."
+        },
+        {
+          "id": "step-7",
+          "stepNumber": 7,
+          "text": "Enfournez à 180°C pendant 30 minutes, jusqu'à ce que le dessus soit bien dorée et croustillant.",
+          "durationMinutes": 30
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1200&q=80",
+      "tags": [
+        "Dessert",
+        "Pomme",
+        "Crumble",
+        "Automne",
+        "Facile",
+        "Chaud"
+      ],
+      "notes": "L'astuce du chef : utiliser du beurre demi-sel bien froid et ne pas trop travailler la pâte pour obtenir ce côté sablé incomparable. Servez tiède avec une boule de glace à la vanille pour un contraste de température divin."
+    },
+    "savedToRecipes": true,
+    "savedRecipeId": "recipe-1793636265498-jn5t8"
+  },
+  {
+    "id": "ai-gen-1793636229818-bz8m",
+    "prompt": "Recette originale de la carbonara italienne (pour 4 personnes)",
+    "createdAt": "2026-11-02T16:17:09.818Z",
+    "recipe": {
+      "title": "Véritables Spaghetti alla Carbonara",
+      "description": "Un voyage gustatif au cœur de Rome avec cette recette authentique, crémeuse à souhait sans une seule goutte de crème fraîche.",
+      "category": "Plat",
+      "prepTime": 10,
+      "cookTime": 15,
+      "totalTime": 25,
+      "servings": 4,
+      "difficulty": "Facile",
+      "ingredients": [
+        {
+          "id": "ing-1",
+          "raw": "400 g de spaghetti de qualité supérieure",
+          "quantity": 400,
+          "unit": "g",
+          "name": "spaghetti de qualité supérieure"
+        },
+        {
+          "id": "ing-2",
+          "raw": "200 g de guanciale (ou de pancetta à défaut)",
+          "quantity": 200,
+          "unit": "g",
+          "name": "guanciale (ou de pancetta à défaut)"
+        },
+        {
+          "id": "ing-3",
+          "raw": "4 jaunes d'œufs frais",
+          "quantity": 4,
+          "name": "jaunes d'œufs frais"
+        },
+        {
+          "id": "ing-4",
+          "raw": "1 œuf entier",
+          "quantity": 1,
+          "name": "œuf entier"
+        },
+        {
+          "id": "ing-5",
+          "raw": "100 g de Pecorino Romano râpé",
+          "quantity": 100,
+          "unit": "g",
+          "name": "Pecorino Romano râpé"
+        },
+        {
+          "id": "ing-6",
+          "raw": "Poivre noir en grains",
+          "name": "Poivre noir en grains"
+        },
+        {
+          "id": "ing-7",
+          "raw": "Gros sel pour l'eau des pâtes",
+          "name": "Gros sel pour l'eau des pâtes"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "step-1",
+          "stepNumber": 1,
+          "text": "Portez une grande casserole d'eau à ébullition avec du gros sel (attention à ne pas trop saler, car le guanciale et le pecorino le sont déjà).",
+          "durationMinutes": 10
+        },
+        {
+          "id": "step-2",
+          "stepNumber": 2,
+          "text": "Coupez le guanciale en lanières d'environ un centimètre d'épaisseur."
+        },
+        {
+          "id": "step-3",
+          "stepNumber": 3,
+          "text": "Faites dorer le guanciale dans une poêle à sec, sans matière grasse, à feu moyen jusqu'à ce qu'il devienne croustillant et que le gras fonde.",
+          "durationMinutes": 8
+        },
+        {
+          "id": "step-4",
+          "stepNumber": 4,
+          "text": "Pendant ce temps, plongez les spaghetti dans l'eau bouillante et faites-les cuire al dente en vous fiant au temps indiqué sur le paquet.",
+          "durationMinutes": 10
+        },
+        {
+          "id": "step-5",
+          "stepNumber": 5,
+          "text": "Dans un bol, battez les jaunes d'œufs et l'œuf entier avec le Pecorino Romano râpé et une généreuse quantité de poivre noir fraîchement concassé."
+        },
+        {
+          "id": "step-6",
+          "stepNumber": 6,
+          "text": "Prélevez une louche d'eau de cuisson des pâtes (riche en amidon) et versez-la doucement dans le mélange d'œufs et de fromage tout en fouettant pour détendre la préparation."
+        },
+        {
+          "id": "step-7",
+          "stepNumber": 7,
+          "text": "Égouttez les spaghetti en gardant un peu d'eau de cuisson, puis jetez-les directement dans la poêle avec le guanciale chaud (feu coupé)."
+        },
+        {
+          "id": "step-8",
+          "stepNumber": 8,
+          "text": "Versez la crème d'œufs et de pecorino sur les pâtes. Mélangez énergiquement en remuant la poêle. Si besoin, ajoutez un tout petit peu d'eau de cuisson pour obtenir une texture nappante et crémeuse.",
+          "durationMinutes": 2
+        },
+        {
+          "id": "step-9",
+          "stepNumber": 9,
+          "text": "Servez immédiatement dans des assiettes creuses en saupoudrant d'un peu de pecorino et de poivre noir."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1200&q=80",
+      "tags": [
+        "Italien",
+        "Pâtes",
+        "Traditionnel",
+        "Rapide",
+        "Réconfortant"
+      ],
+      "notes": "Le secret absolu d'une carbonara réussie réside dans la gestion de la température : coupez le feu avant d'ajouter le mélange d'œufs pour éviter de faire des œufs brouillés !"
+    },
+    "savedToRecipes": false
+  },
+  {
+    "id": "ai-gen-1793636179812-bdch",
+    "prompt": "Recette originale de la carbonara italienne (pour 4 personnes)",
+    "createdAt": "2026-11-02T16:16:19.812Z",
+    "recipe": {
+      "title": "Véritables Spaghetti alla Carbonara",
+      "description": "Un voyage gustatif au cœur de Rome avec cette recette authentique, crémeuse à souhait sans une seule goutte de crème fraîche.",
+      "category": "Plat",
+      "prepTime": 10,
+      "cookTime": 15,
+      "totalTime": 25,
+      "servings": 4,
+      "difficulty": "Facile",
+      "ingredients": [
+        {
+          "id": "ing-1",
+          "raw": "400 g de spaghetti de qualité supérieure",
+          "quantity": 400,
+          "unit": "g",
+          "name": "spaghetti de qualité supérieure"
+        },
+        {
+          "id": "ing-2",
+          "raw": "200 g de guanciale (ou pancetta à défaut)",
+          "quantity": 200,
+          "unit": "g",
+          "name": "guanciale (ou pancetta à défaut)"
+        },
+        {
+          "id": "ing-3",
+          "raw": "4 jaunes d'œufs frais",
+          "quantity": 4,
+          "name": "jaunes d'œufs frais"
+        },
+        {
+          "id": "ing-4",
+          "raw": "1 œuf entier",
+          "quantity": 1,
+          "name": "œuf entier"
+        },
+        {
+          "id": "ing-5",
+          "raw": "100 g de Pecorino Romano râpé",
+          "quantity": 100,
+          "unit": "g",
+          "name": "Pecorino Romano râpé"
+        },
+        {
+          "id": "ing-6",
+          "raw": "Poivre noir du moulin en grande quantité",
+          "name": "Poivre noir du moulin en grande quantité"
+        },
+        {
+          "id": "ing-7",
+          "raw": "Gros sel pour l'eau des pâtes",
+          "name": "Gros sel pour l'eau des pâtes"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "step-1",
+          "stepNumber": 1,
+          "text": "Portez un grand volume d'eau à ébullition avec du gros sel (attention à ne pas trop saler, car le guanciale et le pecorino le sont déjà).",
+          "durationMinutes": 10
+        },
+        {
+          "id": "step-2",
+          "stepNumber": 2,
+          "text": "Coupez le guanciale en lanières d'environ un demi-centimètre d'épaisseur."
+        },
+        {
+          "id": "step-3",
+          "stepNumber": 3,
+          "text": "Faites dorer le guanciale dans une poêle antiadhésive à feu moyen sans ajout de matière grasse, jusqu'à ce qu'il devienne croustillant et que le gras ait fondu.",
+          "durationMinutes": 8
+        },
+        {
+          "id": "step-4",
+          "stepNumber": 4,
+          "text": "Pendant ce temps, plongez les spaghetti dans l'eau bouillante pour les cuire al dente.",
+          "durationMinutes": 10
+        },
+        {
+          "id": "step-5",
+          "stepNumber": 5,
+          "text": "Dans un grand bol, battez les jaunes d'œufs et l'œuf entier avec le Pecorino Romano râpé et une généreuse quantité de poivre noir fraîchement concassé jusqu'à obtenir une crème onctueuse."
+        },
+        {
+          "id": "step-6",
+          "stepNumber": 6,
+          "text": "Prélevez une louche d'eau de cuisson des pâtes et versez-la doucement dans le mélange d'œufs tout en fouettant énergiquement pour tempérer les œufs sans les cuire."
+        },
+        {
+          "id": "step-7",
+          "stepNumber": 7,
+          "text": "Égouttez les spaghetti en gardant un peu d'eau de cuisson, puis versez-les directement dans la poêle avec le guanciale chaud (feu coupé)."
+        },
+        {
+          "id": "step-8",
+          "stepNumber": 8,
+          "text": "Ajoutez la crème d'œufs et de fromage par-dessus les pâtes. Mélangez vigoureusement en émulsionnant avec un peu d'eau de cuisson si nécessaire pour créer une sauce soyeuse et brillante.",
+          "durationMinutes": 2
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1200&q=80",
+      "tags": [
+        "Italien",
+        "Pâtes",
+        "Traditionnel",
+        "Rapide",
+        "Rome"
+      ],
+      "notes": "L'astuce du chef : ne jamais mettre de crème fraîche ! La vraie onctuosité de la carbonara provient uniquement de l'émulsion magique entre l'eau de cuisson riche en amidon, le gras du guanciale et les œufs battus hors du feu."
+    },
+    "savedToRecipes": false
+  },
+  {
+    "id": "ai-gen-1793635639364-ppw8",
+    "prompt": "recette de coulant au chocolat pour 6 coulant dans des petits moules. cuisson au airfryer. j'ai un robot patisser kenwood prospero (pour 6 personnes)",
+    "createdAt": "2026-11-02T16:07:19.364Z",
+    "recipe": {
+      "title": "Petits fondants coulants au chocolat à l'Airfryer",
+      "description": "Des petits gâteaux au cœur intensément chocolaté et coulant à souhait, réalisés facilement grâce à votre robot Kenwood Prospero et cuits à l'Airfryer.",
+      "category": "Dessert",
+      "prepTime": 15,
+      "cookTime": 8,
+      "totalTime": 23,
+      "servings": 6,
+      "difficulty": "Facile",
+      "ingredients": [
+        {
+          "id": "ing-1",
+          "raw": "150g de chocolat noir pâtissier",
+          "quantity": 150,
+          "unit": "g",
+          "name": "chocolat noir pâtissier"
+        },
+        {
+          "id": "ing-2",
+          "raw": "120g de beurre doux",
+          "quantity": 120,
+          "unit": "g",
+          "name": "beurre doux"
+        },
+        {
+          "id": "ing-3",
+          "raw": "3 oeufs entiers",
+          "quantity": 3,
+          "name": "oeufs entiers"
+        },
+        {
+          "id": "ing-4",
+          "raw": "90g de sucre en poudre",
+          "quantity": 90,
+          "unit": "g",
+          "name": "sucre en poudre"
+        },
+        {
+          "id": "ing-5",
+          "raw": "50g de farine de blé",
+          "quantity": 50,
+          "unit": "g",
+          "name": "farine de blé"
+        },
+        {
+          "id": "ing-6",
+          "raw": "1 pincée de fleur de sel",
+          "quantity": 1,
+          "unit": "pincée",
+          "name": "fleur de sel"
+        },
+        {
+          "id": "ing-7",
+          "raw": "Beurre et cacao en poudre pour les moules",
+          "name": "Beurre et cacao en poudre pour les moules"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "step-1",
+          "stepNumber": 1,
+          "text": "Préchauffez votre Airfryer à 180°C. Beurrez généreusement 6 petits moules individuels (type ramequins ou moules à muffins en silicone) et saupoudrez-les légèrement de cacao en poudre.",
+          "durationMinutes": 3
+        },
+        {
+          "id": "step-2",
+          "stepNumber": 2,
+          "text": "Faites fondre le chocolat noir et le beurre doux ensemble au bain-marie ou délicatement au micro-ondes, puis lissez bien le mélange.",
+          "durationMinutes": 2
+        },
+        {
+          "id": "step-3",
+          "stepNumber": 3,
+          "text": "Installez le fouet K sur votre robot Kenwood Prospero. Versez les oeufs et le sucre en poudre dans le bol, puis battez à vitesse moyenne jusqu'à ce que le mélange blanchisse et devienne mousseux.",
+          "durationMinutes": 4
+        },
+        {
+          "id": "step-4",
+          "stepNumber": 4,
+          "text": "Incorporez délicatement le chocolat et le beurre fondu dans le bol du robot à l'aide d'une spatule, puis ajoutez la farine tamisée et la pincée de fleur de sel en remuant délicatement pour obtenir une texture homogène.",
+          "durationMinutes": 3
+        },
+        {
+          "id": "step-5",
+          "stepNumber": 5,
+          "text": "Répartissez la préparation de manière équitable dans vos 6 petits moules préparés.",
+          "durationMinutes": 3
+        },
+        {
+          "id": "step-6",
+          "stepNumber": 6,
+          "text": "Placez les moules dans le panier de votre Airfryer et faites cuire à 180°C pendant exactement 8 minutes pour garantir un cœur bien coulant.",
+          "durationMinutes": 8
+        },
+        {
+          "id": "step-7",
+          "stepNumber": 7,
+          "text": "Laissez reposer 2 minutes hors de l'Airfryer avant de démouler délicatement sur assiette et de déguster tiède.",
+          "durationMinutes": 2
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1200&q=80",
+      "tags": [
+        "Chocolat",
+        "Dessert",
+        "Airfryer",
+        "Kenwood",
+        "Gourmand"
+      ],
+      "notes": "L'astuce du chef : le temps de cuisson à l'Airfryer est crucial. Si vos moules sont très épais, n'hésitez pas à rajouter 1 minute, mais surveillez bien pour ne pas cuire l'intérieur qui doit rester irrésistiblement coulant."
+    },
+    "savedToRecipes": true,
+    "savedRecipeId": "recipe-1793635670198-ub4qa"
+  },
+  {
+    "id": "ai-gen-1793635511808-v7zj",
+    "prompt": "Une véritable recette italienne authentique et conviviale. (pour 2 personnes) (régime/allergie : healthy / léger)",
+    "createdAt": "2026-11-02T16:05:11.808Z",
+    "recipe": {
+      "title": "Spaghetti alla Nerano légers et parfumés",
+      "description": "Un voyage gustatif direct sur la côte amalfitaine avec cette merveille de courgettes fondantes et de basilic frais, revisitée dans une version légère et incroyablement savoureuse.",
+      "category": "Plat",
+      "prepTime": 15,
+      "cookTime": 20,
+      "totalTime": 35,
+      "servings": 2,
+      "difficulty": "Facile",
+      "ingredients": [
+        {
+          "id": "ing-1",
+          "raw": "160g de spaghetti de bonne qualité",
+          "quantity": 160,
+          "unit": "g",
+          "name": "spaghetti de bonne qualité"
+        },
+        {
+          "id": "ing-2",
+          "raw": "3 pièces de courgettes moyennes",
+          "quantity": 3,
+          "unit": "pièces",
+          "name": "courgettes moyennes"
+        },
+        {
+          "id": "ing-3",
+          "raw": "1 gousse d'ail",
+          "quantity": 1,
+          "unit": "gousse",
+          "name": "ail"
+        },
+        {
+          "id": "ing-4",
+          "raw": "10 feuilles de basilic frais",
+          "quantity": 10,
+          "unit": "feuilles",
+          "name": "basilic frais"
+        },
+        {
+          "id": "ing-5",
+          "raw": "30g de parmesan râpé",
+          "quantity": 30,
+          "unit": "g",
+          "name": "parmesan râpé"
+        },
+        {
+          "id": "ing-6",
+          "raw": "2 cuillères à soupe d'huile d'olive extra vierge",
+          "quantity": 2,
+          "unit": "c. à soupe",
+          "name": "huile d'olive extra vierge"
+        },
+        {
+          "id": "ing-7",
+          "raw": "1 pincée de sel fin",
+          "quantity": 1,
+          "unit": "pincée",
+          "name": "sel fin"
+        },
+        {
+          "id": "ing-8",
+          "raw": "1 tour de moulin à poivre noir",
+          "quantity": 1,
+          "name": "tour de moulin à poivre noir"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "step-1",
+          "stepNumber": 1,
+          "text": "Lavez les courgettes et coupez-les en rondelles très fines."
+        },
+        {
+          "id": "step-2",
+          "stepNumber": 2,
+          "text": "Dans une poêle avec l'huile d'olive et la gousse d'ail écrasée, faites suer les courgettes à feu moyen en remuant régulièrement jusqu'à ce qu'elles soient bien fondantes et légèrement dorées.",
+          "durationMinutes": 15
+        },
+        {
+          "id": "step-3",
+          "stepNumber": 3,
+          "text": "Retirez la gousse d'ail, ajoutez les feuilles de basilic déchirées et mixez la moitié des courgettes pour obtenir une crème onctueuse, en gardant l'autre moitié en morceaux."
+        },
+        {
+          "id": "step-4",
+          "stepNumber": 4,
+          "text": "Pendant ce temps, faites cuire les spaghetti dans une grande casserole d'eau bouillante salée en respectant le temps al dente.",
+          "durationMinutes": 9
+        },
+        {
+          "id": "step-5",
+          "stepNumber": 5,
+          "text": "Égouttez les pâtes en gardant un petit verre d'eau de cuisson."
+        },
+        {
+          "id": "step-6",
+          "stepNumber": 6,
+          "text": "Ajoutez les pâtes dans la poêle avec la crème de courgettes, le parmesan et un peu d'eau de cuisson. Mélangez énergiquement à feu doux pour lier le tout.",
+          "durationMinutes": 2
+        },
+        {
+          "id": "step-7",
+          "stepNumber": 7,
+          "text": "Servez immédiatement en décorant avec quelques feuilles de basilic frais et un tour de moulin à poivre."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1200&q=80",
+      "tags": [
+        "Italien",
+        "Healthy",
+        "Végétarien",
+        "Pâtes",
+        "Rapide"
+      ],
+      "notes": "Pour garder ce plat léger sans sacrifier la gourmandise traditionnelle de la recette de Nerano, l'astuce réside dans le fait de mixer une partie des courgettes pour créer une émulsion crémeuse naturelle avec l'eau des pâtes et le parmesan, évitant ainsi d'ajouter trop de matière grasse."
+    },
+    "savedToRecipes": false
+  },
+  {
+    "id": "ai-gen-demo-1",
+    "prompt": "J'ai du chocolat noir, 3 oeufs et un reste de noisettes, que faire en 20 minutes ?",
+    "createdAt": "2026-11-02T15:45:00.000Z",
+    "savedToRecipes": true,
+    "recipe": {
+      "title": "Fondant express au chocolat noir & éclats de noisettes torréfiées",
+      "description": "Un gâteau ultra fondant au cœur coulant, sublimé par le croquant des noisettes torréfiées à la poêle.",
+      "category": "Dessert",
+      "prepTime": 10,
+      "cookTime": 12,
+      "totalTime": 22,
+      "servings": 4,
+      "difficulty": "Facile",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1200&q=80",
+      "ingredients": [
+        {
+          "id": "ing-1",
+          "raw": "200 g de chocolat noir pâtissier (70%)",
+          "quantity": 200,
+          "unit": "g",
+          "name": "chocolat noir pâtissier"
+        },
+        {
+          "id": "ing-2",
+          "raw": "80 g de beurre demi-sel",
+          "quantity": 80,
+          "unit": "g",
+          "name": "beurre demi-sel"
+        },
+        {
+          "id": "ing-3",
+          "raw": "3 oeufs frais",
+          "quantity": 3,
+          "unit": "pièces",
+          "name": "oeufs frais"
+        },
+        {
+          "id": "ing-4",
+          "raw": "50 g de sucre en poudre",
+          "quantity": 50,
+          "unit": "g",
+          "name": "sucre en poudre"
+        },
+        {
+          "id": "ing-5",
+          "raw": "40 g de farine de blé",
+          "quantity": 40,
+          "unit": "g",
+          "name": "farine de blé"
+        },
+        {
+          "id": "ing-6",
+          "raw": "50 g de noisettes concassées",
+          "quantity": 50,
+          "unit": "g",
+          "name": "noisettes concassées"
+        }
+      ],
+      "instructions": [
+        {
+          "id": "step-1",
+          "stepNumber": 1,
+          "text": "Préchauffez votre four à 200°C. Torréfiez les noisettes à sec dans une poêle chaude pendant 3 minutes pour exhaler leurs arômes.",
+          "durationMinutes": 3
+        },
+        {
+          "id": "step-2",
+          "stepNumber": 2,
+          "text": "Faites fondre le chocolat avec le beurre coupé en dés au bain-marie ou au micro-ondes à puissance moyenne."
+        },
+        {
+          "id": "step-3",
+          "stepNumber": 3,
+          "text": "Dans un bol, fouettez vivement les œufs avec le sucre jusqu'à ce que le mélange blanchisse légèrement."
+        },
+        {
+          "id": "step-4",
+          "stepNumber": 4,
+          "text": "Incorporez le chocolat fondu aux œufs, puis ajoutez la farine tamisée et les 3/4 des noisettes torréfiées."
+        },
+        {
+          "id": "step-5",
+          "stepNumber": 5,
+          "text": "Versez dans un moule beurré, parsemez du reste de noisettes sur le dessus et enfournez pendant 10 à 12 minutes (le cœur doit rester tremblotant).",
+          "durationMinutes": 12
+        }
+      ],
+      "tags": [
+        "Chocolat",
+        "Dessert",
+        "Rapide",
+        "Fondant",
+        "Noisettes"
+      ],
+      "notes": "Servez tiède avec une boule de glace vanille ou une quenelle de mascarpone."
+    },
+    "savedRecipeId": "recipe-1793635255038-1e183"
+  }
+]

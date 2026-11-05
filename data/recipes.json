@@ -1,0 +1,1055 @@
+[
+  {
+    "id": "recipe-1793637308306-un616",
+    "title": "Velouté câlin de carottes et patates douces au lait de coco",
+    "description": "Une soupe d'une douceur infinie, où la carotte et la patate douce se marient avec une pointe de vanille et de coco pour enrober le cœur de douceur.",
+    "sourceType": "paste",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=1200&q=80",
+    "category": "Entrée",
+    "prepTime": 15,
+    "cookTime": 30,
+    "totalTime": 45,
+    "servings": 6,
+    "difficulty": "Facile",
+    "ingredients": [
+      {
+        "id": "ing-1",
+        "raw": "800g de carottes fraîches",
+        "quantity": 800,
+        "unit": "g",
+        "name": "carottes fraîches"
+      },
+      {
+        "id": "ing-2",
+        "raw": "600g de patates douces",
+        "quantity": 600,
+        "unit": "g",
+        "name": "patates douces"
+      },
+      {
+        "id": "ing-3",
+        "raw": "1 oignon jaune",
+        "quantity": 1,
+        "name": "oignon jaune"
+      },
+      {
+        "id": "ing-4",
+        "raw": "2 gousses d'ail",
+        "quantity": 2,
+        "unit": "gousses",
+        "name": "ail"
+      },
+      {
+        "id": "ing-5",
+        "raw": "400ml de lait de coco",
+        "quantity": 400,
+        "unit": "ml",
+        "name": "lait de coco"
+      },
+      {
+        "id": "ing-6",
+        "raw": "800ml de bouillon de légumes",
+        "quantity": 800,
+        "unit": "ml",
+        "name": "bouillon de légumes"
+      },
+      {
+        "id": "ing-7",
+        "raw": "30g de beurre doux",
+        "quantity": 30,
+        "unit": "g",
+        "name": "beurre doux"
+      },
+      {
+        "id": "ing-8",
+        "raw": "1 cuillère à café de sel fin",
+        "quantity": 1,
+        "unit": "c. à café",
+        "name": "sel fin"
+      },
+      {
+        "id": "ing-9",
+        "raw": "4 pincées de poivre blanc moulu",
+        "quantity": 4,
+        "unit": "pincée",
+        "name": "poivre blanc moulu"
+      },
+      {
+        "id": "ing-10",
+        "raw": "1 pincée de noix de muscade râpée",
+        "quantity": 1,
+        "unit": "pincée",
+        "name": "noix de muscade râpée"
+      }
+    ],
+    "instructions": [
+      {
+        "id": "step-1",
+        "stepNumber": 1,
+        "text": "Épluchez les carottes, les patates douces, l'oignon et l'ail. Taillez tous les légumes en cubes réguliers pour assurer une cuisson homogène.",
+        "durationMinutes": 10
+      },
+      {
+        "id": "step-2",
+        "stepNumber": 2,
+        "text": "Dans une grande casserole, faites fondre le beurre à feu moyen. Ajoutez l'oignon émincé et l'ail écrasé, puis faites-les suer pendant 5 minutes sans coloration.",
+        "durationMinutes": 5
+      },
+      {
+        "id": "step-3",
+        "stepNumber": 3,
+        "text": "Ajoutez les cubes de carottes et de patates douces dans la casserole. Remuez bien pour les enrober de beurre.",
+        "durationMinutes": 2
+      },
+      {
+        "id": "step-4",
+        "stepNumber": 4,
+        "text": "Versez le bouillon de légumes chaud et le lait de coco. Portez à frémissement, puis couvrez et laissez mijoter à feu doux pendant 25 minutes jusqu'à ce que les légumes soient parfaitement fondants.",
+        "durationMinutes": 25
+      },
+      {
+        "id": "step-5",
+        "stepNumber": 5,
+        "text": "À l'aide d'un mixeur plongeant, réduisez le tout en un velouté extrêmement fin et onctueux. Ajustez l'assaisonnement avec le sel, le poivre blanc et la muscade.",
+        "durationMinutes": 3
+      },
+      {
+        "id": "step-6",
+        "stepNumber": 6,
+        "text": "Servez bien chaud dans de jolie bols, avec éventuellement un petit filet de lait de coco sur le dessus pour le dressage."
+      }
+    ],
+    "tags": [
+      "Soupe",
+      "Végétarien",
+      "Réconfortant",
+      "Hiver"
+    ],
+    "favorite": false,
+    "notes": "L'astuce du chef : pour encore plus de gourmandise et de texture, ajoutez une cuillère à soupe de purée d'amandes blanches au moment de mixer le velouté.",
+    "createdAt": "2026-11-02T16:35:08.307Z",
+    "updatedAt": "2026-11-02T16:35:08.307Z"
+  },
+  {
+    "id": "recipe-1793636265498-jn5t8",
+    "title": "Crumble aux pommes fondant et croustillant",
+    "description": "Un grand classique réconfortant, alliant la douceur de pommes fondantes délicatement parfumées à la cannelle et un crumble au beurre bien croustillant.",
+    "sourceType": "paste",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1200&q=80",
+    "category": "Dessert",
+    "prepTime": 20,
+    "cookTime": 30,
+    "totalTime": 50,
+    "servings": 4,
+    "difficulty": "Facile",
+    "ingredients": [
+      {
+        "id": "ing-1",
+        "raw": "4 pièces de pommes (variété Golden ou Reinette)",
+        "quantity": 4,
+        "unit": "pièces",
+        "name": "pommes (variété Golden ou Reinette)"
+      },
+      {
+        "id": "ing-2",
+        "raw": "20 g de beurre doux (pour la poêlée)",
+        "quantity": 20,
+        "unit": "g",
+        "name": "beurre doux (pour la poêlée)"
+      },
+      {
+        "id": "ing-3",
+        "raw": "30 g de sucre roux",
+        "quantity": 30,
+        "unit": "g",
+        "name": "sucre roux"
+      },
+      {
+        "id": "ing-4",
+        "raw": "1 pincée de cannelle en poudre",
+        "quantity": 1,
+        "unit": "pincée",
+        "name": "cannelle en poudre"
+      },
+      {
+        "id": "ing-5",
+        "raw": "120 g de farine de blé T55",
+        "quantity": 120,
+        "unit": "g",
+        "name": "farine de blé T55"
+      },
+      {
+        "id": "ing-6",
+        "raw": "50 g de poudre d'amandes",
+        "quantity": 50,
+        "unit": "g",
+        "name": "poudre d'amandes"
+      },
+      {
+        "id": "ing-7",
+        "raw": "80 g de sucre en poudre",
+        "quantity": 80,
+        "unit": "g",
+        "name": "sucre en poudre"
+      },
+      {
+        "id": "ing-8",
+        "raw": "100 g de beurre demi-sel bien froid",
+        "quantity": 100,
+        "unit": "g",
+        "name": "beurre demi-sel bien froid"
+      }
+    ],
+    "instructions": [
+      {
+        "id": "step-1",
+        "stepNumber": 1,
+        "text": "Préchauffez votre four à 180°C en chaleur tournante."
+      },
+      {
+        "id": "step-2",
+        "stepNumber": 2,
+        "text": "Épluchez les pommes, retirez le cœur et coupez-les en dés réguliers d'environ 2 cm."
+      },
+      {
+        "id": "step-3",
+        "stepNumber": 3,
+        "text": "Dans une poêle, faites fondre les 20g de beurre doux, ajoutez les dés de pommes, le sucre roux et la cannelle. Laissez compoter à feu moyen pendant 10 minutes en remuant délicatement.",
+        "durationMinutes": 10
+      },
+      {
+        "id": "step-4",
+        "stepNumber": 4,
+        "text": "Pendant ce temps, préparez la pâte à crumble : dans un saladier, mélangez du bout des doigts la farine, la poudre d'amandes, le sucre en poudre et le beurre demi-sel coupé en petits dés, jusqu'à obtenir une texture de sable grossier."
+      },
+      {
+        "id": "step-5",
+        "stepNumber": 5,
+        "text": "Répartissez les pommes poêlées au fond d'un plat à gratin ou dans 4 petits plats individuels."
+      },
+      {
+        "id": "step-6",
+        "stepNumber": 6,
+        "text": "Émiettez la pâte à crumble généreusement par-dessus les pommes de manière à bien les recouvrir, sans trop tasser pour garder du croustillant."
+      },
+      {
+        "id": "step-7",
+        "stepNumber": 7,
+        "text": "Enfournez à 180°C pendant 30 minutes, jusqu'à ce que le dessus soit bien dorée et croustillant.",
+        "durationMinutes": 30
+      }
+    ],
+    "tags": [
+      "Dessert",
+      "Pomme",
+      "Crumble",
+      "Automne",
+      "Facile",
+      "Chaud"
+    ],
+    "favorite": false,
+    "notes": "L'astuce du chef : utiliser du beurre demi-sel bien froid et ne pas trop travailler la pâte pour obtenir ce côté sablé incomparable. Servez tiède avec une boule de glace à la vanille pour un contraste de température divin.",
+    "createdAt": "2026-11-02T16:17:45.498Z",
+    "updatedAt": "2026-11-02T16:17:45.498Z"
+  },
+  {
+    "id": "recipe-1793635800118-wbnly",
+    "title": "Gâteau au yaourt bien moelleux",
+    "description": "Un gâteau au yaourt classique et ultra moelleux, réalisable au robot Kenwood ou à la main, avec options de cuisson au four ou à l'Airfryer.",
+    "sourceType": "paste",
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80",
+    "category": "Dessert",
+    "prepTime": 15,
+    "cookTime": 35,
+    "totalTime": 50,
+    "servings": 6,
+    "difficulty": "Facile",
+    "ingredients": [
+      {
+        "id": "ing-1",
+        "raw": "pot de yaourt nature",
+        "name": "pot de yaourt nature"
+      },
+      {
+        "id": "ing-2",
+        "raw": "pots de farine de blé",
+        "name": "pots de farine de blé"
+      },
+      {
+        "id": "ing-3",
+        "raw": "pots de sucre en poudre",
+        "name": "pots de sucre en poudre"
+      },
+      {
+        "id": "ing-4",
+        "raw": ".5 pot d'huile neutre",
+        "name": ".5 pot d'huile neutre"
+      },
+      {
+        "id": "ing-5",
+        "raw": "pièces d'œufs",
+        "name": "pièces d'œufs"
+      },
+      {
+        "id": "ing-6",
+        "raw": "sachet de levure chimique",
+        "name": "sachet de levure chimique"
+      },
+      {
+        "id": "ing-7",
+        "raw": "sachet de sucre vanillé",
+        "name": "sachet de sucre vanillé"
+      },
+      {
+        "id": "ing-8",
+        "raw": "pincée de sel",
+        "name": "pincée de sel"
+      }
+    ],
+    "instructions": [
+      {
+        "id": "step-1",
+        "stepNumber": 1,
+        "text": "Dans le bol de ton robot Kenwood muni du fouet K ou du fouet filaire, verse le yaourt nature avec le sucre en poudre et le sucre vanillé. Mélange à vitesse moyenne."
+      },
+      {
+        "id": "step-2",
+        "stepNumber": 2,
+        "text": "Ajoute les 3 œufs un par un en continuant de battre pour que le mélange devienne bien mousseux et aérien, puis verse l'huile neutre."
+      },
+      {
+        "id": "step-3",
+        "stepNumber": 3,
+        "text": "Incorpore progressivement la farine tamisée, la levure chimique et la pincée de sel. Mélange juste ce qu'il faut pour obtenir une pâte homogène et sans grumeaux."
+      },
+      {
+        "id": "step-4",
+        "stepNumber": 4,
+        "text": "Pour la cuisson au four, préchauffe à 180°C, verse dans un moule beurré et enfourne pour 30 à 35 minutes. Pour l'Airfryer, préchauffe à 160°C et cuis 25 à 30 minutes.",
+        "durationMinutes": 35
+      },
+      {
+        "id": "step-5",
+        "stepNumber": 5,
+        "text": "Vérifie la cuisson en plantant la lame d'un couteau au centre du gâteau (elle doit ressortir propre). Laisse tiédir avant de démouler."
+      }
+    ],
+    "tags": [
+      "Gâteau",
+      "Dessert",
+      "Goûter",
+      "Facile",
+      "Kenwood",
+      "Airfryer"
+    ],
+    "favorite": false,
+    "notes": "Tu peux utiliser le pot de yaourt vide comme mesure pour les ingrédients. Si le dessus dore trop vite à l'Airfryer, pose un petit carré de papier alu par-dessus.",
+    "createdAt": "2026-11-02T16:10:00.118Z",
+    "updatedAt": "2026-11-02T16:10:00.118Z"
+  },
+  {
+    "id": "recipe-1793635670198-ub4qa",
+    "title": "Petits fondants coulants au chocolat à l'Airfryer",
+    "description": "Des petits gâteaux au cœur intensément chocolaté et coulant à souhait, réalisés facilement grâce à votre robot Kenwood Prospero et cuits à l'Airfryer.",
+    "sourceType": "paste",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1200&q=80",
+    "category": "Dessert",
+    "prepTime": 15,
+    "cookTime": 8,
+    "totalTime": 23,
+    "servings": 6,
+    "difficulty": "Facile",
+    "ingredients": [
+      {
+        "id": "ing-1",
+        "raw": "150g de chocolat noir pâtissier",
+        "quantity": 150,
+        "unit": "g",
+        "name": "chocolat noir pâtissier"
+      },
+      {
+        "id": "ing-2",
+        "raw": "120g de beurre doux",
+        "quantity": 120,
+        "unit": "g",
+        "name": "beurre doux"
+      },
+      {
+        "id": "ing-3",
+        "raw": "3 oeufs entiers",
+        "quantity": 3,
+        "name": "oeufs entiers"
+      },
+      {
+        "id": "ing-4",
+        "raw": "90g de sucre en poudre",
+        "quantity": 90,
+        "unit": "g",
+        "name": "sucre en poudre"
+      },
+      {
+        "id": "ing-5",
+        "raw": "50g de farine de blé",
+        "quantity": 50,
+        "unit": "g",
+        "name": "farine de blé"
+      },
+      {
+        "id": "ing-6",
+        "raw": "1 pincée de fleur de sel",
+        "quantity": 1,
+        "unit": "pincée",
+        "name": "fleur de sel"
+      },
+      {
+        "id": "ing-7",
+        "raw": "Beurre et cacao en poudre pour les moules",
+        "name": "Beurre et cacao en poudre pour les moules"
+      }
+    ],
+    "instructions": [
+      {
+        "id": "step-1",
+        "stepNumber": 1,
+        "text": "Préchauffez votre Airfryer à 180°C. Beurrez généreusement 6 petits moules individuels (type ramequins ou moules à muffins en silicone) et saupoudrez-les légèrement de cacao en poudre.",
+        "durationMinutes": 3
+      },
+      {
+        "id": "step-2",
+        "stepNumber": 2,
+        "text": "Faites fondre le chocolat noir et le beurre doux ensemble au bain-marie ou délicatement au micro-ondes, puis lissez bien le mélange.",
+        "durationMinutes": 2
+      },
+      {
+        "id": "step-3",
+        "stepNumber": 3,
+        "text": "Installez le fouet K sur votre robot Kenwood Prospero. Versez les oeufs et le sucre en poudre dans le bol, puis battez à vitesse moyenne jusqu'à ce que le mélange blanchisse et devienne mousseux.",
+        "durationMinutes": 4
+      },
+      {
+        "id": "step-4",
+        "stepNumber": 4,
+        "text": "Incorporez délicatement le chocolat et le beurre fondu dans le bol du robot à l'aide d'une spatule, puis ajoutez la farine tamisée et la pincée de fleur de sel en remuant délicatement pour obtenir une texture homogène.",
+        "durationMinutes": 3
+      },
+      {
+        "id": "step-5",
+        "stepNumber": 5,
+        "text": "Répartissez la préparation de manière équitable dans vos 6 petits moules préparés.",
+        "durationMinutes": 3
+      },
+      {
+        "id": "step-6",
+        "stepNumber": 6,
+        "text": "Placez les moules dans le panier de votre Airfryer et faites cuire à 180°C pendant exactement 8 minutes pour garantir un cœur bien coulant.",
+        "durationMinutes": 8
+      },
+      {
+        "id": "step-7",
+        "stepNumber": 7,
+        "text": "Laissez reposer 2 minutes hors de l'Airfryer avant de démouler délicatement sur assiette et de déguster tiède.",
+        "durationMinutes": 2
+      }
+    ],
+    "tags": [
+      "Chocolat",
+      "Dessert",
+      "Airfryer",
+      "Kenwood",
+      "Gourmand"
+    ],
+    "favorite": false,
+    "notes": "L'astuce du chef : le temps de cuisson à l'Airfryer est crucial. Si vos moules sont très épais, n'hésitez pas à rajouter 1 minute, mais surveillez bien pour ne pas cuire l'intérieur qui doit rester irrésistiblement coulant.",
+    "createdAt": "2026-11-02T16:07:50.198Z",
+    "updatedAt": "2026-11-02T16:07:50.198Z"
+  },
+  {
+    "id": "recipe-1793634092247-4sair",
+    "title": "Panforte di Sienna (Italie - Toscane) : la meilleure recette",
+    "description": "Recette Panforte di Sienna (Italie - Toscane) : la meilleure recette rapide et facile : 8 personnes, 55 min de préparation. Notée 4.7/5 par 3 membres Marmiton.",
+    "sourceUrl": "https://www.marmiton.org/recettes/recette_fondant-au-chocolat-rapide_16633.aspx",
+    "sourceType": "url",
+    "image": "https://assets.afcdn.com/recipe/20130914/38425_w1024h1024c1cx1224cy1632.jpg",
+    "category": "Dessert",
+    "prepTime": 15,
+    "cookTime": 40,
+    "totalTime": 55,
+    "servings": 8,
+    "difficulty": "Moyen",
+    "ingredients": [
+      {
+        "id": "ing-1",
+        "raw": "50 g de farine",
+        "quantity": 50,
+        "unit": "g",
+        "name": "farine"
+      },
+      {
+        "id": "ing-2",
+        "raw": "175 g de fruits confits (oranges, citrons, cédrats, melons)",
+        "quantity": 175,
+        "unit": "g",
+        "name": "fruits confits (oranges, citrons, cédrats, melons)"
+      },
+      {
+        "id": "ing-3",
+        "raw": "100 g de miel liquide",
+        "quantity": 100,
+        "unit": "g",
+        "name": "miel liquide"
+      },
+      {
+        "id": "ing-4",
+        "raw": "75 g de noisettes mondées",
+        "quantity": 75,
+        "unit": "g",
+        "name": "noisettes mondées"
+      },
+      {
+        "id": "ing-5",
+        "raw": "75 g d'amandes mondées",
+        "quantity": 75,
+        "unit": "g",
+        "name": "amandes mondées"
+      },
+      {
+        "id": "ing-6",
+        "raw": "25 g de cacao",
+        "quantity": 25,
+        "unit": "g",
+        "name": "cacao"
+      },
+      {
+        "id": "ing-7",
+        "raw": "0.25 cuillères à café de cannelle en poudre",
+        "quantity": 0.25,
+        "unit": "c. à café",
+        "name": "cannelle en poudre"
+      },
+      {
+        "id": "ing-8",
+        "raw": "0.25 cuillères à café de quatre-épices en poudre",
+        "quantity": 0.25,
+        "unit": "c. à café",
+        "name": "quatre-épices en poudre"
+      },
+      {
+        "id": "ing-9",
+        "raw": "100 g de sucre semoule",
+        "quantity": 100,
+        "unit": "g",
+        "name": "sucre semoule"
+      },
+      {
+        "id": "ing-10",
+        "raw": "sucre glace pour la décoration",
+        "name": "sucre glace pour la décoration"
+      }
+    ],
+    "instructions": [
+      {
+        "id": "step-1",
+        "stepNumber": 1,
+        "text": "Allumer le four à thermostat 4 1/2 (160°C)."
+      },
+      {
+        "id": "step-2",
+        "stepNumber": 2,
+        "text": "Hacher finement les zestes, écraser les noisettes et les amandes au rouleau à pâtisserie."
+      },
+      {
+        "id": "step-3",
+        "stepNumber": 3,
+        "text": "Mettre le tout dans un saladier, avec la farine, le cacao, le 4 épices.Mélanger bien."
+      },
+      {
+        "id": "step-4",
+        "stepNumber": 4,
+        "text": "Préparer un sirop : verser le miel et le sucre semoule dans une casserole. Faire chauffer à feu doux jusqu'à dissolution du sucre, et porter à ébulition, cuire au petit boulé ( roulé entre les doigts mouillés, le sirop forme une boule molle )."
+      },
+      {
+        "id": "step-5",
+        "stepNumber": 5,
+        "text": "Retirer alors du feu, et verser dans le saladier, en mélangeant le tout."
+      },
+      {
+        "id": "step-6",
+        "stepNumber": 6,
+        "text": "Tapisser un moule à manqué de 20cm de diamètre avec une feuille de papier sulfurisé, et y étaler la préparation précedente dur 1 cm d'épaisseur. Mettre au four et cuire 30 à 35 mn."
+      },
+      {
+        "id": "step-7",
+        "stepNumber": 7,
+        "text": "Quand le biscuit est bien doré, le retourner sur une grille pour le laiss refroidir. Au moment de servir, poudrer avec du sucre glace passé au travers d'une fine passoire."
+      }
+    ],
+    "tags": [
+      "Dessert",
+      "Panforte di Sienna (Italie - Toscane)",
+      "farine",
+      "fruit confit",
+      "miel liquide",
+      "noisettes",
+      "amandes",
+      "cacao"
+    ],
+    "favorite": false,
+    "createdAt": "2026-11-02T15:41:32.247Z",
+    "updatedAt": "2026-11-02T15:41:32.247Z"
+  },
+  {
+    "id": "recipe-1793634047439-gwkor",
+    "title": "Cookies maison aux pépites de chocolat et fleur de sel",
+    "description": "Pour 8 personnes (environ 12 gros cookies) :",
+    "sourceType": "paste",
+    "image": "https://images.unsplash.com/photo-1495521821757-a1efb6729352?auto=format&fit=crop&w=1200&q=80",
+    "category": "Dessert",
+    "prepTime": 15,
+    "cookTime": 10,
+    "totalTime": 25,
+    "servings": 8,
+    "difficulty": "Moyen",
+    "ingredients": [
+      {
+        "id": "ing-1",
+        "raw": "200g de farine de blé",
+        "quantity": 200,
+        "unit": "g",
+        "name": "farine de blé"
+      },
+      {
+        "id": "ing-2",
+        "raw": "120g de beurre doux ramolli",
+        "quantity": 120,
+        "unit": "g",
+        "name": "beurre doux ramolli"
+      },
+      {
+        "id": "ing-3",
+        "raw": "100g de sucre roux (cassonade)",
+        "quantity": 100,
+        "unit": "g",
+        "name": "sucre roux (cassonade)"
+      },
+      {
+        "id": "ing-4",
+        "raw": "50g de sucre blanc",
+        "quantity": 50,
+        "unit": "g",
+        "name": "sucre blanc"
+      },
+      {
+        "id": "ing-5",
+        "raw": "1 gros oeuf",
+        "quantity": 1,
+        "name": "gros oeuf"
+      },
+      {
+        "id": "ing-6",
+        "raw": "150g de pépites de chocolat noir",
+        "quantity": 150,
+        "unit": "g",
+        "name": "pépites de chocolat noir"
+      },
+      {
+        "id": "ing-7",
+        "raw": "1 cuillère à café d'extrait de vanille",
+        "quantity": 1,
+        "unit": "c. à café",
+        "name": "extrait de vanille"
+      },
+      {
+        "id": "ing-8",
+        "raw": "1/2 cuillère à café de bicarbonate de soude",
+        "quantity": 0.5,
+        "unit": "c. à café",
+        "name": "bicarbonate de soude"
+      },
+      {
+        "id": "ing-9",
+        "raw": "1 pincée de fleur de sel",
+        "quantity": 1,
+        "unit": "pincée",
+        "name": "fleur de sel"
+      }
+    ],
+    "instructions": [
+      {
+        "id": "step-1",
+        "stepNumber": 1,
+        "text": "Préchauffez le four à 180°C (thermostat 6) et tapissez une plaque de papier sulfurisé."
+      },
+      {
+        "id": "step-2",
+        "stepNumber": 2,
+        "text": "Dans un grand saladier, fouettez le beurre avec les sucres jusqu'à obtenir un mélange bien crémeux."
+      },
+      {
+        "id": "step-3",
+        "stepNumber": 3,
+        "text": "Incorporez l'œuf et l'extrait de vanille, puis mélangez vigoureusement."
+      },
+      {
+        "id": "step-4",
+        "stepNumber": 4,
+        "text": "Ajoutez la farine, le bicarbonate et la fleur de sel. Mélangez délicatement à la spatule sans trop travailler la pâte."
+      },
+      {
+        "id": "step-5",
+        "stepNumber": 5,
+        "text": "Versez les pépites de chocolat et mélangez une dernière fois."
+      },
+      {
+        "id": "step-6",
+        "stepNumber": 6,
+        "text": "Formez des boules de pâte de la taille d'une balle de golf et déposez-les espacées sur la plaque."
+      },
+      {
+        "id": "step-7",
+        "stepNumber": 7,
+        "text": "Enfournez pendant 10 minutes jusqu'à ce que les bords soient dorés mais le centre encore tendre.",
+        "durationMinutes": 10
+      },
+      {
+        "id": "step-8",
+        "stepNumber": 8,
+        "text": "Laissez refroidir 5 minutes avant de déguster !",
+        "durationMinutes": 5
+      }
+    ],
+    "tags": [
+      "Dessert",
+      "Rapide",
+      "Chocolat",
+      "Four"
+    ],
+    "favorite": false,
+    "createdAt": "2026-11-02T15:40:47.439Z",
+    "updatedAt": "2026-11-02T15:40:47.439Z"
+  },
+  {
+    "id": "risotto-cremeux-champignons",
+    "title": "Risotto crémeux aux champignons sauvages & parmesan",
+    "description": "Un risotto italien ultra onctueux, parfumé à l'échalote, vin blanc sec et champignons rôtis.",
+    "sourceType": "manual",
+    "category": "Plat",
+    "image": "https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?auto=format&fit=crop&w=1200&q=80",
+    "prepTime": 15,
+    "cookTime": 25,
+    "totalTime": 40,
+    "servings": 4,
+    "difficulty": "Facile",
+    "favorite": true,
+    "tags": [
+      "Italien",
+      "Champignons",
+      "Parmesan",
+      "Végétarien",
+      "Confort"
+    ],
+    "notes": "Le secret réside dans le bouillon bien chaud ajouté louche après louche sans cesser de remuer.",
+    "createdAt": "2026-11-02T15:34:05.686Z",
+    "updatedAt": "2026-11-02T15:34:05.686Z",
+    "ingredients": [
+      {
+        "id": "1",
+        "raw": "320 g de riz Arborio ou Carnaroli",
+        "quantity": 320,
+        "unit": "g",
+        "name": "riz Arborio"
+      },
+      {
+        "id": "2",
+        "raw": "400 g de champignons frais (mélange forestier ou de Paris)",
+        "quantity": 400,
+        "unit": "g",
+        "name": "champignons frais"
+      },
+      {
+        "id": "3",
+        "raw": "1 litre de bouillon de légumes chaud",
+        "quantity": 1,
+        "unit": "L",
+        "name": "bouillon de légumes"
+      },
+      {
+        "id": "4",
+        "raw": "1 échalote finement ciselée",
+        "quantity": 1,
+        "unit": "pièce",
+        "name": "échalote"
+      },
+      {
+        "id": "5",
+        "raw": "10 cl de vin blanc sec",
+        "quantity": 10,
+        "unit": "cl",
+        "name": "vin blanc sec"
+      },
+      {
+        "id": "6",
+        "raw": "60 g de parmesan fraîchement râpé",
+        "quantity": 60,
+        "unit": "g",
+        "name": "parmesan"
+      },
+      {
+        "id": "7",
+        "raw": "40 g de beurre froid",
+        "quantity": 40,
+        "unit": "g",
+        "name": "beurre"
+      },
+      {
+        "id": "8",
+        "raw": "2 cuillères à soupe d'huile d'olive",
+        "quantity": 2,
+        "unit": "c. à soupe",
+        "name": "huile d'olive"
+      }
+    ],
+    "instructions": [
+      {
+        "id": "s1",
+        "stepNumber": 1,
+        "text": "Nettoyez et émincez les champignons. Faites-les dorer dans une poêle avec 1 c. à soupe d'huile d'olive pendant 6-8 minutes. Salez, poivrez et réservez.",
+        "durationMinutes": 8
+      },
+      {
+        "id": "s2",
+        "stepNumber": 2,
+        "text": "Dans une sauteuse, faites suer l'échalote dans le reste d'huile d'olive jusqu'à ce qu'elle devienne translucide."
+      },
+      {
+        "id": "s3",
+        "stepNumber": 3,
+        "text": "Ajoutez le riz et nacrez-le à feu moyen pendant 2 minutes jusqu'à ce que les grains soient brillants.",
+        "durationMinutes": 2
+      },
+      {
+        "id": "s4",
+        "stepNumber": 4,
+        "text": "Déglacez avec le vin blanc et laissez s'évaporer complètement."
+      },
+      {
+        "id": "s5",
+        "stepNumber": 5,
+        "text": "Versez une louche de bouillon chaud. Remuez doucement et attendez qu'il soit absorbé avant d'ajouter la suivante. Répétez l'opération pendant environ 18 minutes.",
+        "durationMinutes": 18
+      },
+      {
+        "id": "s6",
+        "stepNumber": 6,
+        "text": "Incorporez les champignons réservés dans les deux dernières minutes de cuisson."
+      },
+      {
+        "id": "s7",
+        "stepNumber": 7,
+        "text": "Hors du feu, réalisez le \"mantecare\" : incorporez le beurre froid coupé en dés et le parmesan. Couvrez 2 minutes puis mélangez vivement avant de servir."
+      }
+    ]
+  },
+  {
+    "id": "guacamole-authentique",
+    "title": "Guacamole authentique mexicain à la coriandre fraîche",
+    "description": "Une recette fraîche et addictive à base d'avocats mûrs, jus de citron vert, piment doux et coriandre.",
+    "sourceType": "manual",
+    "category": "Apéritif",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=80",
+    "prepTime": 10,
+    "cookTime": 0,
+    "totalTime": 10,
+    "servings": 4,
+    "difficulty": "Facile",
+    "favorite": false,
+    "tags": [
+      "Apéro",
+      "Mexicain",
+      "Avocat",
+      "Frais",
+      "Sans cuisson"
+    ],
+    "notes": "Ne mixez jamais le guacamole : écrasez à la fourchette pour garder de beaux morceaux fondants.",
+    "createdAt": "2026-11-02T15:34:05.686Z",
+    "updatedAt": "2026-11-02T15:34:05.686Z",
+    "ingredients": [
+      {
+        "id": "1",
+        "raw": "3 avocats Hass bien mûrs",
+        "quantity": 3,
+        "unit": "pièces",
+        "name": "avocats"
+      },
+      {
+        "id": "2",
+        "raw": "1 citron vert (jus et zeste)",
+        "quantity": 1,
+        "unit": "pièce",
+        "name": "citron vert"
+      },
+      {
+        "id": "3",
+        "raw": "1 petit oignon rouge finement haché",
+        "quantity": 1,
+        "unit": "pièce",
+        "name": "oignon rouge"
+      },
+      {
+        "id": "4",
+        "raw": "1 tomate mûre épépinée et coupée en petits dés",
+        "quantity": 1,
+        "unit": "pièce",
+        "name": "tomate"
+      },
+      {
+        "id": "5",
+        "raw": "1 petit bouquet de coriandre fraîche",
+        "quantity": 0.5,
+        "unit": "bouquet",
+        "name": "coriandre fraîche"
+      },
+      {
+        "id": "6",
+        "raw": "1 pincée de piment d'Espelette ou Jalapeño",
+        "quantity": 1,
+        "unit": "pincée",
+        "name": "piment"
+      },
+      {
+        "id": "7",
+        "raw": "Fleur de sel et poivre noir du moulin",
+        "quantity": 1,
+        "unit": "pincée",
+        "name": "sel et poivre"
+      }
+    ],
+    "instructions": [
+      {
+        "id": "s1",
+        "stepNumber": 1,
+        "text": "Coupez les avocats en deux, retirez le noyau et récupérez la chair à la cuillère dans un bol."
+      },
+      {
+        "id": "s2",
+        "stepNumber": 2,
+        "text": "Arrosez immédiatement avec le jus du citron vert pour éviter l'oxydation."
+      },
+      {
+        "id": "s3",
+        "stepNumber": 3,
+        "text": "Écrasez la chair à l'aide d'une fourchette en laissant quelques petits morceaux de texture."
+      },
+      {
+        "id": "s4",
+        "stepNumber": 4,
+        "text": "Incorporez les dés de tomates, l'oignon rouge et la coriandre finement ciselée."
+      },
+      {
+        "id": "s5",
+        "stepNumber": 5,
+        "text": "Assaisonnez avec la fleur de sel, le poivre et une touche de piment. Ajustez le jus de citron vert selon vos goûts et servez avec des tortillas de maïs."
+      }
+    ]
+  },
+  {
+    "id": "tarte-tatin-rustique",
+    "title": "Tarte Tatin rustique aux pommes caramélisées",
+    "description": "La vraie tarte Tatin avec des pommes fondantes caramélisées au beurre demi-sel et une pâte feuilletée croustillante.",
+    "sourceType": "manual",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=1200&q=80",
+    "prepTime": 25,
+    "cookTime": 40,
+    "totalTime": 65,
+    "servings": 6,
+    "difficulty": "Moyen",
+    "favorite": true,
+    "tags": [
+      "Dessert",
+      "Pommes",
+      "Caramel",
+      "Traditionnel",
+      "Four"
+    ],
+    "notes": "Servez tiède avec une boule de glace vanille ou une cuillère de crème fraîche épaisse.",
+    "createdAt": "2026-11-02T15:34:05.683Z",
+    "updatedAt": "2026-11-02T15:34:05.686Z",
+    "ingredients": [
+      {
+        "id": "1",
+        "raw": "1 rouleau de pâte feuilletée pur beurre",
+        "quantity": 1,
+        "unit": "rouleau",
+        "name": "pâte feuilletée"
+      },
+      {
+        "id": "2",
+        "raw": "1,5 kg de pommes (Golden ou Reine des reinettes)",
+        "quantity": 1.5,
+        "unit": "kg",
+        "name": "pommes"
+      },
+      {
+        "id": "3",
+        "raw": "150 g de sucre en poudre",
+        "quantity": 150,
+        "unit": "g",
+        "name": "sucre en poudre"
+      },
+      {
+        "id": "4",
+        "raw": "80 g de beurre demi-sel",
+        "quantity": 80,
+        "unit": "g",
+        "name": "beurre demi-sel"
+      },
+      {
+        "id": "5",
+        "raw": "1 cuillère à café de cannelle moulue (facultatif)",
+        "quantity": 1,
+        "unit": "c. à café",
+        "name": "cannelle"
+      }
+    ],
+    "instructions": [
+      {
+        "id": "s1",
+        "stepNumber": 1,
+        "text": "Préchauffez votre four à 180°C (thermostat 6). Épluchez les pommes, retirez le cœur et coupez-les en gros quartiers."
+      },
+      {
+        "id": "s2",
+        "stepNumber": 2,
+        "text": "Dans un moule à manqué ou une poêle allant au four, faites fondre le beurre avec le sucre à feu moyen jusqu'à obtenir un caramel ambré.",
+        "durationMinutes": 8
+      },
+      {
+        "id": "s3",
+        "stepNumber": 3,
+        "text": "Disposez les quartiers de pommes bien serrés verticalement dans le caramel chaud. Saupoudrez d'un peu de cannelle."
+      },
+      {
+        "id": "s4",
+        "stepNumber": 4,
+        "text": "Laissez cuire les pommes sur feu doux pendant 15 minutes pour qu'elles s'imprègnent bien du caramel.",
+        "durationMinutes": 15
+      },
+      {
+        "id": "s5",
+        "stepNumber": 5,
+        "text": "Déposez la pâte feuilletée sur les pommes en rentrant bien les bords à l'intérieur du moule. Piquez la pâte avec une fourchette."
+      },
+      {
+        "id": "s6",
+        "stepNumber": 6,
+        "text": "Enfournez pendant 35 à 40 minutes jusqu'à ce que la pâte soit bien dorée et croustillante.",
+        "durationMinutes": 40
+      },
+      {
+        "id": "s7",
+        "stepNumber": 7,
+        "text": "Laissez tiédir 10 minutes avant de démouler en retournant d'un coup sec sur un grand plat de service."
+      }
+    ]
+  }
+]
